@@ -14,5 +14,8 @@
 ## Original Script
 - https://github.com/qbcore-framework/qb-garbagejob
 
-
-![](https://imgur.com/pJ4IIWI)
+## SCREENSHOTS
+![Preview Screenshot](https://i.imgur.com/Iliow4e.png)
+![Preview Screenshot](https://i.imgur.com/C4NFHON.png)
+![Preview Screenshot](https://i.imgur.com/NDSsCHO.png)
+![Preview Screenshot](https://i.imgur.com/omd7T2f.png)
