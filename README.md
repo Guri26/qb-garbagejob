@@ -1,5 +1,6 @@
 # qb-garbagejob
 - QBCore based garbage job
+- Added rest area for the workers
 
 
 ### If you need support I have a discord server available
