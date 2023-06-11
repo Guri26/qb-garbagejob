@@ -70,6 +70,28 @@ local function DeleteZone()
     PZone:destroy()
 end
 
+-- Funzione per spawnare un oggetto in una posizione specifica
+function SpawnObject(modelHash, position)
+    local object = CreateObject(modelHash, position.x, position.y, position.z, true, true, true)
+    FreezeEntityPosition(object, true) -- A
+    return object
+end
+
+-- Lista di modelli e posizioni degli oggetti
+local objectList = {
+    {model = "bkr_prop_clubhouse_sofa_01a", position = vector3(881.2, -2166.69, 31.27)},
+    {model = "apa_mp_h_stn_sofa_daybed_01", position = vector3(877.49, -2166.18, 31.27)},
+    {model = "p_yacht_sofa_01_s", position = vector3(875.22, -2165.68, 31.27)},
+    -- Aggiungi altri oggetti con relative posizioni
+}
+
+-- Spawn dei singoli oggetti
+for i, objectData in ipairs(objectList) do
+    local modelHash = GetHashKey(objectData.model)
+    local position = objectData.position
+    local spawnedObject = SpawnObject(modelHash, position)
+end
+
 local function SetRouteBack()
     local depot = Config.Locations["main"].coords
     endBlip = AddBlipForCoord(depot.x, depot.y, depot.z)
