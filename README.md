@@ -19,6 +19,6 @@
 ![Preview Screenshot](https://i.imgur.com/Iliow4e.png)
 ![Preview Screenshot](https://i.imgur.com/C4NFHON.png)
 ![Preview Screenshot](https://i.imgur.com/NDSsCHO.png)
-![Preview Screenshot](https://i.imgur.com/omd7T2f.png)
+
 ![Preview Screenshot](https://i.imgur.com/pIfdbR3.png)
 
