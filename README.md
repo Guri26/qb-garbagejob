@@ -6,4 +6,5 @@
 
 # Installation
 - Drag and Drop
+- Need Garbage job in QB-CORE/SHARED/JOBS.LUA
 
